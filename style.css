@@ -142,7 +142,7 @@ nav {
 }
 
 .hero-img-fig {
-    background-image: url(/images/hero.jpeg);
+    background-image: url(./images/hero.jpeg);
     width: 3008px;
     height: 624px;
     background-size: 3008px 624px;
@@ -266,7 +266,7 @@ nav {
 .watch-content h2 {
     margin: 8px auto 0 auto;
     width: 100%;
-    background-image: url(/images/watch_logo.png);
+    background-image: url(./images/watch_logo.png);
     height: 72px;
     background-size: 190px 73px;
     background-repeat: no-repeat;
@@ -287,7 +287,7 @@ nav {
 }
 
 .watch-img-fig {
-    background-image: url(/images/watch.jpeg);
+    background-image: url(./images/watch.jpeg);
     background-size: 3008px 624px;
     background-repeat: no-repeat;
     width: 3008px;
@@ -358,7 +358,7 @@ nav {
 
 
 .iphone14pro-img-fig {
-    background-image: url(/images/iphone14pro.jpeg);
+    background-image: url(./images/iphone14pro.jpeg);
     width: 1262px;
     height: 580px;
     background-size: 1262px 580px;
@@ -390,7 +390,7 @@ nav {
 
 
 .ipads-img-fig {
-    background-image: url(/images/ipads.jpeg);
+    background-image: url(./images/ipads.jpeg);
     width: 1262px;
     height: 580px;
     background-size: 1262px 580px;
