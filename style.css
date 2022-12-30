@@ -236,7 +236,7 @@ nav {
 }
 
 .gift-img-fig {
-    background-image: url(/images/gift.jpeg);
+    background-image: url(./images/gift.jpeg);
     background-size: 3008px 624px;
     background-repeat: no-repeat;
     width: 3008px;
