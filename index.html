@@ -11,59 +11,91 @@
     <nav>
         <div class="nav-container">
             <div class="nav-wrapper">
-                <ul class="nav-menu">
-                    <li class="menu">
+                <ul class="mobile-nav-menu">
+                    <li class="mobile-menu">
+                        <div class="hamburger-div">
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                        </div>
+                    </li>
+                    <li class="mobile-menu">
                         <a href="">
-                        <img class="apple-logo icon-img" src="/images/logo.svg" alt="">
+                        <img class="apple-logo icon-img mobile-icon" src="./images/logo.svg" alt="">
                         </a>
                     </li>
-                    <li class="menu">
+                    <li class="mobile-menu">
+                        <a href="">
+                        <img class="icon-img mobile-icon"src="./images/bag.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div class="mobile-nav-wrapper">
+                <ul class="nav-menu">
+                    <li class="mobile-search">
+                        <div class="mobile-search-div">
+                            <div class="mobile-search-input">
+                                <div class="mobile-search-icon-div">
+                                    <a href="">
+                        <img class="icon-img search-icon mobile-search-icon"src="./images/search.svg" alt="">
+                        </a>
+                                </div>
+                                <span>Search apple.com</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu mobile-hidden-menu">
+                        <a href="">
+                        <img class="apple-logo icon-img" src="./images/logo.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="menu mobile-col-menu">
                         <a href="">Store</a>
                         
                     </li>
-                    <li class="menu">
+                    <li class="menu mobile-col-menu">
                         <a href="">Mac</a>
                         
                     </li>
 
-                    <li class="menu">
+                    <li class="menu mobile-col-menu">
                         <a href="">iPad</a>
                         
                     </li>
-                    <li class="menu">
+                    <li class="menu mobile-col-menu">
                         
                         <a href="">iPhone</a>
                     </li>
-                    <li class="menu">
+                    <li class="menu mobile-col-menu">
                         
                         <a href="">Watch</a>
                     </li>
-                    <li class="menu">
+                    <li class="menu mobile-col-menu">
                         <a href="">AirPods</a>
                     </li>
-                    <li class="menu">
+                    <li class="menu mobile-col-menu">
                         <a href="">TV & Home</a>
                     </li>
-                    <li class="menu">
+                    <li class="menu mobile-col-menu">
                         <a href="">Only on Apple</a>
                     </li>
-                    <li class="menu">
+                    <li class="menu mobile-col-menu">
                         <a href="">Accessories</a>
                     </li>
-                    <li class="menu">
+                    <li class="menu mobile-col-menu">
                         <a href="">Support</a>
                     </li>
-                    <li class="menu">
+                    <li class="menu mobile-hidden-menu">
                         <a href="">
-                        <img src="./images/search.svg" alt="">
+                        <img class="icon-img search-icon"src="./images/search.svg" alt="">
                         </a>
                     </li>
-                    <li class="menu">
+                    <li class="menu mobile-hidden-menu">
                         <a href="">
                         <img class="icon-img"src="./images/bag.svg" alt="">
                         </a>
                     </li>
                 </ul>
+                
             </div>
         </div>
     </nav>
@@ -95,7 +127,7 @@
                             Get the gift you’ve been eyeing all season.
                         </h3>
                         <div class="gift-link">
-                            <a class="lp-btn" href="">Shop</a>
+                            <a class="lp-btn gift-btn" href="">Shop</a>
                         </div>
                     </div>
                     <div class="gift-img-wrapper">
@@ -178,10 +210,13 @@
         <div class="footer-container">
             <div class="footer-directory">
                 <div class="footer-col">
-                    <h3>
+                    <div class="footer-title-div">
+                    <h3 class="footer-title">
                         Shop and Learn
                     </h3>
-                    <ul>
+                    <span class="footer-dropdown-btn">+</span>
+                    </div>
+                    <ul class="footer-submenu">
                         <li>
                             <a href="">Store</a>   
                         </li>
@@ -215,10 +250,13 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h3>
+                    <div class="footer-title-div">
+                    <h3 class="footer-title">
                         Services
                     </h3>
-                    <ul>
+                    <span class="footer-dropdown-btn">+</span>
+                    </div>
+                    <ul class="footer-submenu">
                         <li>
                             <a href="">Apple Music</a>    
                         </li>
@@ -253,10 +291,13 @@
                             <a href="">Apple Store</a>    
                         </li>
                     </ul>
-                    <h3>
+                    <div class="footer-title-div">
+                    <h3 class="footer-title">
                         Account
                     </h3>
-                    <ul>
+                    <span class="footer-dropdown-btn">+</span>
+                    </div>
+                    <ul class="footer-submenu">
                         <li>
                             <a href="">Manage Your Apple ID</a>
                         </li>
@@ -269,10 +310,13 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h3>
+                    <div class="footer-title-div">
+                    <h3 class="footer-title">
                         Apple Store
                     </h3>
-                    <ul>
+                    <span class="footer-dropdown-btn">+</span>
+                    </div>
+                    <ul class="footer-submenu">
                         <li>
                             <a href="">Find a Store</a>    
                         </li>
@@ -306,10 +350,13 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h3>
+                    <div class="footer-title-div">
+                    <h3 class="footer-title">
                         For Business
                     </h3>
-                    <ul>
+                    <span class="footer-dropdown-btn">+</span>
+                    </div>
+                    <ul class="footer-submenu">
                         <li>
                             <a href="">Apple and Business</a>    
                         </li>
@@ -317,10 +364,13 @@
                             <a href="">Shop for Business</a>    
                         </li>
                     </ul>
-                    <h3>
+                    <div class="footer-title-div">
+                    <h3 class="footer-title">
                         For Education
                     </h3>
-                    <ul>
+                    <span class="footer-dropdown-btn">+</span>
+                    </div>
+                    <ul class="footer-submenu">
                         <li>
                             <a href="">Apple and Education</a>    
                         </li>
@@ -331,10 +381,13 @@
                             <a href="">Shop for College</a>    
                         </li>
                     </ul>
-                    <h3>
+                    <div class="footer-title-div">
+                    <h3 class="footer-title">
                         For Healthcare
                     </h3>
-                    <ul>
+                    <span class="footer-dropdown-btn">+</span>
+                    </div>
+                    <ul class="footer-submenu">
                         <li>
                             <a href="">Apple in Healthcare</a>    
                         </li>
@@ -345,10 +398,13 @@
                             <a href="">Health Records on iPhone</a>    
                         </li>
                     </ul>
-                    <h3>
+                    <div class="footer-title-div">
+                    <h3 class="footer-title">
                         For Goverment
                     </h3>
-                    <ul>
+                    <span class="footer-dropdown-btn">+</span>
+                    </div>
+                    <ul class="footer-submenu">
                         <li>
                             <a href="">Shop for Goverment</a>    
                         </li>
@@ -358,10 +414,13 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h3>
+                    <div class="footer-title-div">
+                    <h3 class="footer-title">
                         Apple Values
                     </h3>
-                    <ul>
+                    <span class="footer-dropdown-btn">+</span>
+                    </div>
+                    <ul class="footer-submenu">
                         <li>
                             <a href="">Accessibility</a>    
                         </li>
@@ -384,10 +443,13 @@
                             <a href="">Sullier Responsibility</a>    
                         </li>
                     </ul>
-                    <h3>
+                    <div class="footer-title-div">
+                    <h3 class="footer-title">
                         About Apple
                     </h3>
-                    <ul>
+                    <span class="footer-dropdown-btn">+</span>
+                    </div>
+                    <ul class="footer-submenu">
                         <li>
                             <a href="">Newsroom</a>    
                         </li>
@@ -414,6 +476,6 @@
             </div>
         </div>
     </footer>
-    
+    <script src="app.js"></script>
 </body>
 </html>
