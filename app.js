@@ -52,3 +52,15 @@ footerTitleDiv.forEach((ftd) => {
     }
   };
 });
+
+const footerSubmenu = document.querySelectorAll(".footer-submenu");
+
+window.addEventListener("resize", () => {
+  footerSubmenu.forEach((fsm) => {
+    if (window.innerWidth >= 833) {
+    fsm.style.display = "block";
+    } else {
+      fsm.style.display = "none";
+    }
+  })
+});
