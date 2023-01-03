@@ -25,13 +25,12 @@
                     </li>
                     <li class="mobile-menu">
                         <a href="">
-                        <img class="icon-img mobile-icon"src="./images/bag.svg" alt="">
+                        <img class="icon-img mobile-icon"id="basket"src="./images/bag.svg" alt="">
                         </a>
                     </li>
                 </ul>
                 <div class="mobile-nav-wrapper">
-                <ul class="nav-menu">
-                    <li class="mobile-search">
+                    <div class="mobile-search">
                         <div class="mobile-search-div">
                             <div class="mobile-search-input">
                                 <div class="mobile-search-icon-div">
@@ -42,13 +41,14 @@
                                 <span>Search apple.com</span>
                             </div>
                         </div>
-                    </li>
+                    </div>
+                <ul class="nav-menu">
                     <li class="menu mobile-hidden-menu">
                         <a href="">
                         <img class="apple-logo icon-img" src="./images/logo.svg" alt="">
                         </a>
                     </li>
-                    <li class="menu mobile-col-menu">
+                    <li class="menu mobile-col-menu menu-store">
                         <a href="">Store</a>
                         
                     </li>
@@ -106,8 +106,8 @@
                     <div class="hero-content">
                         <h2>iPhone 14</h2>
                         <h3>Big and bigger.</h3>
-                        <div class="hero-btns">
-                            <a class="lp-btn" href="">Learn more</a> <a href=""class="lp-btn" >Buy</a>
+                        <div class="hero-btns lp-btns">
+                            <a class="lp-btn" href="">Learn more</a> <a href=""class="lp-btn lp-btn-right" >Buy</a>
                         </div>
                     </div>
                     <div class="hero-img-wrapper">
@@ -126,7 +126,7 @@
                         <h3>
                             Get the gift you’ve been eyeing all season.
                         </h3>
-                        <div class="gift-link">
+                        <div class="gift-link lp-btns">
                             <a class="lp-btn gift-btn" href="">Shop</a>
                         </div>
                     </div>
@@ -146,9 +146,9 @@
                         <h3>
                             A healty leap ahead.
                         </h3>
-                        <div class="watch-btns">
+                        <div class="watch-btns lp-btns">
                             <a class="lp-btn" href="">Learn more</a>
-                            <a class="lp-btn" href="">Buy</a>
+                            <a class="lp-btn lp-btn-right" href="">Buy</a>
                         </div>
                     </div>
                     <div class="watch-img-wrapper">
@@ -168,9 +168,9 @@
                         <h5>
                             Pro. Beyond.
                         </h5>
-                        <div class="iphone14pro-btns">
+                        <div class="iphone14pro-btns lp-btns">
                             <a class="lp-btn" href="">Learn more</a>
-                            <a class="lp-btn" href="">Buy</a>
+                            <a class="lp-btn lp-btn-right-grid" href="">Buy</a>
                         </div>
                     </div>
                     <div class="iphone14pro-img-wrapper">
@@ -189,9 +189,9 @@
                         <h5>
                             Lovable. Drawable. Magical.
                         </h5>
-                        <div class="ipads-btns">
+                        <div class="ipads-btns lp-btns">
                             <a class="lp-btn" href="">Learn more</a>
-                            <a class="lp-btn" href="">Buy</a>
+                            <a class="lp-btn lp-btn-right-grid" href="">Buy</a>
                         </div>
                     </div>
                     <div class="ipads-img-wrapper">
@@ -210,6 +210,7 @@
         <div class="footer-container">
             <div class="footer-directory">
                 <div class="footer-col">
+                    <div class="footer-list">
                     <div class="footer-title-div">
                     <h3 class="footer-title">
                         Shop and Learn
@@ -248,9 +249,11 @@
                             <a href="">Gift Cards</a>    
                         </li>
                     </ul>
+                    </div>
                 </div>
                 <div class="footer-col">
-                    <div class="footer-title-div">
+                    <div class="footer-list">
+                    <div class="footer-title-div border-menu">
                     <h3 class="footer-title">
                         Services
                     </h3>
@@ -291,7 +294,9 @@
                             <a href="">Apple Store</a>    
                         </li>
                     </ul>
-                    <div class="footer-title-div">
+                    </div>
+                    <div class="footer-list">
+                    <div class="footer-title-div border-menu">
                     <h3 class="footer-title">
                         Account
                     </h3>
@@ -308,9 +313,11 @@
                             <a href="">iClound.com</a>
                         </li>
                     </ul>
+                    </div>
                 </div>
                 <div class="footer-col">
-                    <div class="footer-title-div">
+                    <div class="footer-list">
+                    <div class="footer-title-div border-menu">
                     <h3 class="footer-title">
                         Apple Store
                     </h3>
@@ -348,9 +355,11 @@
                             <a href="">Shopping Help</a>    
                         </li>
                     </ul>
+                    </div>
                 </div>
                 <div class="footer-col">
-                    <div class="footer-title-div">
+                    <div class="footer-list">
+                    <div class="footer-title-div border-menu">
                     <h3 class="footer-title">
                         For Business
                     </h3>
@@ -364,7 +373,9 @@
                             <a href="">Shop for Business</a>    
                         </li>
                     </ul>
-                    <div class="footer-title-div">
+                    </div>
+                    <div class="footer-list">
+                    <div class="footer-title-div border-menu">
                     <h3 class="footer-title">
                         For Education
                     </h3>
@@ -381,7 +392,9 @@
                             <a href="">Shop for College</a>    
                         </li>
                     </ul>
-                    <div class="footer-title-div">
+                    </div>
+                    <div class="footer-list">
+                    <div class="footer-title-div border-menu">
                     <h3 class="footer-title">
                         For Healthcare
                     </h3>
@@ -398,7 +411,9 @@
                             <a href="">Health Records on iPhone</a>    
                         </li>
                     </ul>
-                    <div class="footer-title-div">
+                    </div>
+                    <div class="footer-list">
+                    <div class="footer-title-div border-menu">
                     <h3 class="footer-title">
                         For Goverment
                     </h3>
@@ -412,9 +427,11 @@
                             <a href="">Shop for Veterans and Military</a>    
                         </li>
                     </ul>
+                    </div>
                 </div>
                 <div class="footer-col">
-                    <div class="footer-title-div">
+                    <div class="footer-list">
+                    <div class="footer-title-div border-menu">
                     <h3 class="footer-title">
                         Apple Values
                     </h3>
@@ -443,7 +460,9 @@
                             <a href="">Sullier Responsibility</a>    
                         </li>
                     </ul>
-                    <div class="footer-title-div">
+                    </div>
+                    <div class="footer-list">
+                    <div class="footer-title-div border-menu">
                     <h3 class="footer-title">
                         About Apple
                     </h3>
@@ -472,6 +491,30 @@
                             <a href="">Contact Apple</a>    
                         </li>
                     </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info">
+                <div class="store-info">
+                    More ways to shop:
+                    <a class="stores"href="">Find an Apple Store</a> or <a class="stores" href="">other retailer</a> near you. <span>Or call 1-800-MY-APPLE.</span>
+                </div>
+                <div class="footer-bottom-row">
+                    <div class="copyright-terms">
+                    <div class="copyright">
+                        Copyright © 2023 Apple Inc. All rights reserved.
+                    </div>
+                    <div class="terms">
+                        <a id="first-terms"href="">Privacy Policy</a>
+                        <a href="">Terms of Use</a>
+                        <a href="">Sales and Refunds</a>
+                        <a href="">Legal</a>
+                        <a id="last-terms"href="">Site Map</a>
+                    </div>
+                    </div>
+                    <div class="country">
+                        <a href="">United States</a>
+                    </div>
                 </div>
             </div>
         </div>
