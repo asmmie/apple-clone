@@ -1,5 +1,5 @@
 const hamburgerDiv = document.querySelector(".hamburger-div");
-const hamburger = document.querySelectorAll(".hamburger");
+// const hamburger = document.querySelectorAll(".hamburger");
 
 const mobileNav = document.querySelector(".mobile-nav-wrapper");
 
@@ -12,7 +12,7 @@ window.addEventListener("click", (evt) => {
     hamburgerDiv.classList.toggle("is-active");
     mobileNav.classList.toggle("active");
     navContainer.classList.toggle("open");
-    // basket.classList.toggle("open");
+    basket.classList.toggle("open");
   }
 });
 
