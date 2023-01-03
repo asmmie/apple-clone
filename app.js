@@ -12,7 +12,7 @@ window.addEventListener("click", (evt) => {
     hamburgerDiv.classList.toggle("is-active");
     mobileNav.classList.toggle("active");
     navContainer.classList.toggle("open");
-    basket.classList.toggle("open");
+    // basket.classList.toggle("open");
   }
 });
 
