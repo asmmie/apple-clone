@@ -1,5 +1,5 @@
 const hamburgerDiv = document.querySelector(".hamburger-div");
-// const hamburger = document.querySelectorAll(".hamburger");
+const hamburger = document.querySelectorAll(".hamburger");
 
 const mobileNav = document.querySelector(".mobile-nav-wrapper");
 
